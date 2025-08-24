@@ -44,7 +44,7 @@ The data is **synthetic** and manually generated for demonstration purposes. It 
 
 
 ## Tools
-- SQL Server / MySQL – Database design, querying, and testing.  
+- SQL Server – Database design, querying, and testing.  
 - ERD software (optional) – To visualize database relationships.  
 
 
@@ -97,27 +97,28 @@ JOIN Books b ON br.BookID = b.BookID
 JOIN Authors a ON b.AuthorID = a.AuthorID
 WHERE br.ReturnDate IS NULL;
 ```
+
 ## Key Insights
+- **Borrowing Patterns:** Member activity is uneven; a small group of readers accounts for a large share of borrowings, highlighting opportunities to increase engagement among less active members.
+  
+- **Category Popularity:** Fiction and Mystery consistently emerge as the most borrowed categories, reflecting clear reader preferences and guiding collection development priorities.
 
-- Borrowing activity reveals that some members are significantly more active than others.
-
-- Fiction and Mystery are the most popular categories, indicating strong user preference.
-
-- Authors such as J.K. Rowling and Agatha Christie stand out in borrowing records, reflecting high demand.
-
-- Some books remain unreturned, showing the importance of monitoring overdue loans.
+- **Author Demand:** High borrowing frequency for authors such as J.K. Rowling and Agatha Christie indicates strong recognition and sustained demand for their works.
+  
+- **Overdue Management:** The presence of unreturned books underscores operational risks and the importance of systematic overdue tracking.
 
 ## Recommendations
+**1. Increase Member Engagement:** Introduce targeted programs—such as personalized reading lists, book clubs, or gamified challenges to activate less frequent borrowers.
 
-- Encourage Member Engagement – Implement programs such as book clubs or recommendations to activate less frequent borrowers.
+**2. Improve Overdue Processes:** Implement automated notifications or database triggers to remind members of due dates and reduce late returns.
 
-- Automate Overdue Notifications – Develop triggers or stored procedures to alert members about overdue books.
+**3.Expand Popular Collections:** Allocate more budget to high-demand categories like Fiction and Mystery to match demonstrated borrowing trends.
 
-- Expand Popular Categories – Increase stock in Fiction and Mystery categories to meet demonstrated demand.
-
-- Future Integration – Build on this database to power a web or mobile application for complete digital library management.
+**4.Future Development:** Scale the system into a fully integrated digital library solution, enabling members to browse, borrow, and track returns through a web or mobile interface.
 
 ## Conclusion
-
-This project highlights strong SQL fundamentals, covering database schema design, relational modeling, data population, and analytical querying. It demonstrates how structured SQL systems can be used to support real-world library management, providing valuable insights into user behavior and operational needs.
+This project demonstrates end-to-end SQL capabilities, including schema design, relational modeling, data population, and analytical querying. 
+Beyond the technical aspects, the analysis provides practical business insights that support better decision making in library operations: identifying reader trends, managing demand, and improving efficiency.
+By combining technical rigor with actionable recommendations, this work showcases how structured data systems can drive strategic improvements in library management and serve as a foundation for future digital solutions.
+insights into user behavior and operational needs.
 
