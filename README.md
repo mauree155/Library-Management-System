@@ -1,14 +1,14 @@
 # Library Management System (SQL Project)
 
 ## Table of Contents
-- Project Overview  
-- Database Design  
-- Data Source  
-- Tools  
-- Processes  
-- Example Queries  
-- Key Insights  
-- Recommendations 
+- [Project Overview](project-overview)  
+- [Database Design](database-design)  
+- [Data Source](data-source)  
+- [Tools](tools)  
+- [Processes](processes)  
+- [Example Queries](example-queries)  
+- [Key Insights](key-insights)  
+- [Recommendations](recommendations)   
 
 ## Project Overview
 This project demonstrates the design and implementation of a relational database system for managing a library. The system enables the efficient organization and tracking of books, authors, categories, members, and borrowing activities.  
