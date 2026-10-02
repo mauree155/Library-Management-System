@@ -120,5 +120,3 @@ WHERE br.ReturnDate IS NULL;
 This project demonstrates end-to-end SQL capabilities, including schema design, relational modeling, data population, and analytical querying. 
 Beyond the technical aspects, the analysis provides practical business insights that support better decision making in library operations: identifying reader trends, managing demand, and improving efficiency.
 By combining technical rigor with actionable recommendations, this work showcases how structured data systems can drive strategic improvements in library management and serve as a foundation for future digital solutions.
-insights into user behavior and operational needs.
-
